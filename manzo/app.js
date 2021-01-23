@@ -29,7 +29,6 @@ modal.addEventListener('click',(e) =>{
 
 
 
-
 const menu = document.querySelector('.logo-container');
 const menu_bar = document.querySelector('#menu-container');
 const logo_container = document.querySelector('.logo-container');
@@ -49,7 +48,6 @@ const skill5 = document.querySelector('.skill:nth-child(5)');
 const skill6 = document.querySelector('.skill:nth-child(6)');
 const h_skill = document.querySelector('.skill-type');
 const p_skill = document.querySelector('.skill-text');
-
 
 skill1.addEventListener('click',function(){
 
@@ -146,6 +144,152 @@ menu.addEventListener('click',function(){
     }
    
 })
+
+
+menu_container.addEventListener('click',function(){
+  menu_bar.style.width="0vw";
+        menu_bar.style.height="0vh";
+        checker -=1;
+        logo_container.style.background="#f05454";  
+        menu_container.style.transform = "translateY(20px)"; 
+        menu_container.style.opacity = "0"; 
+        menu_container2.style.transform = "translateY(20px)"; 
+        menu_container2.style.opacity = "0"; 
+        menu_container3.style.transform = "translateY(20px)"; 
+        menu_container3.style.opacity = "0"; 
+        menu_container4.style.transform = "translateY(20px)"; 
+        menu_container4.style.opacity = "0"; 
+        menu_container5.style.transform = "translateY(20px)"; 
+        menu_container5.style.opacity = "0"; 
+        menu_container.style.cursor ="default";
+        menu_container.style.pointerEvents ="none";
+        menu_container2.style.cursor ="default";
+        menu_container2.style.pointerEvents ="none";
+        menu_container3.style.cursor ="default";
+        menu_container3.style.pointerEvents ="none";
+        menu_container4.style.cursor ="default";
+        menu_container4.style.pointerEvents ="none";
+        menu_container5.style.cursor ="default";
+        menu_container5.style.pointerEvents ="none";
+        menu_display.style.zIndex = "0";
+});
+
+menu_container2.addEventListener('click',function(){
+  menu_bar.style.width="0vw";
+        menu_bar.style.height="0vh";
+        checker -=1;
+        logo_container.style.background="#f05454";  
+        menu_container.style.transform = "translateY(20px)"; 
+        menu_container.style.opacity = "0"; 
+        menu_container2.style.transform = "translateY(20px)"; 
+        menu_container2.style.opacity = "0"; 
+        menu_container3.style.transform = "translateY(20px)"; 
+        menu_container3.style.opacity = "0"; 
+        menu_container4.style.transform = "translateY(20px)"; 
+        menu_container4.style.opacity = "0"; 
+        menu_container5.style.transform = "translateY(20px)"; 
+        menu_container5.style.opacity = "0"; 
+        menu_container.style.cursor ="default";
+        menu_container.style.pointerEvents ="none";
+        menu_container2.style.cursor ="default";
+        menu_container2.style.pointerEvents ="none";
+        menu_container3.style.cursor ="default";
+        menu_container3.style.pointerEvents ="none";
+        menu_container4.style.cursor ="default";
+        menu_container4.style.pointerEvents ="none";
+        menu_container5.style.cursor ="default";
+        menu_container5.style.pointerEvents ="none";
+        menu_display.style.zIndex = "0";
+});
+
+menu_container3.addEventListener('click',function(){
+  menu_bar.style.width="0vw";
+        menu_bar.style.height="0vh";
+        checker -=1;
+        logo_container.style.background="#f05454";  
+        menu_container.style.transform = "translateY(20px)"; 
+        menu_container.style.opacity = "0"; 
+        menu_container2.style.transform = "translateY(20px)"; 
+        menu_container2.style.opacity = "0"; 
+        menu_container3.style.transform = "translateY(20px)"; 
+        menu_container3.style.opacity = "0"; 
+        menu_container4.style.transform = "translateY(20px)"; 
+        menu_container4.style.opacity = "0"; 
+        menu_container5.style.transform = "translateY(20px)"; 
+        menu_container5.style.opacity = "0"; 
+        menu_container.style.cursor ="default";
+        menu_container.style.pointerEvents ="none";
+        menu_container2.style.cursor ="default";
+        menu_container2.style.pointerEvents ="none";
+        menu_container3.style.cursor ="default";
+        menu_container3.style.pointerEvents ="none";
+        menu_container4.style.cursor ="default";
+        menu_container4.style.pointerEvents ="none";
+        menu_container5.style.cursor ="default";
+        menu_container5.style.pointerEvents ="none";
+        menu_display.style.zIndex = "0";
+});
+
+
+menu_container4.addEventListener('click',function(){
+  menu_bar.style.width="0vw";
+        menu_bar.style.height="0vh";
+        checker -=1;
+        logo_container.style.background="#f05454";  
+        menu_container.style.transform = "translateY(20px)"; 
+        menu_container.style.opacity = "0"; 
+        menu_container2.style.transform = "translateY(20px)"; 
+        menu_container2.style.opacity = "0"; 
+        menu_container3.style.transform = "translateY(20px)"; 
+        menu_container3.style.opacity = "0"; 
+        menu_container4.style.transform = "translateY(20px)"; 
+        menu_container4.style.opacity = "0"; 
+        menu_container5.style.transform = "translateY(20px)"; 
+        menu_container5.style.opacity = "0"; 
+        menu_container.style.cursor ="default";
+        menu_container.style.pointerEvents ="none";
+        menu_container2.style.cursor ="default";
+        menu_container2.style.pointerEvents ="none";
+        menu_container3.style.cursor ="default";
+        menu_container3.style.pointerEvents ="none";
+        menu_container4.style.cursor ="default";
+        menu_container4.style.pointerEvents ="none";
+        menu_container5.style.cursor ="default";
+        menu_container5.style.pointerEvents ="none";
+        menu_display.style.zIndex = "0";
+});
+
+
+menu_container5.addEventListener('click',function(){
+  menu_bar.style.width="0vw";
+        menu_bar.style.height="0vh";
+        checker -=1;
+        logo_container.style.background="#f05454";  
+        menu_container.style.transform = "translateY(20px)"; 
+        menu_container.style.opacity = "0"; 
+        menu_container2.style.transform = "translateY(20px)"; 
+        menu_container2.style.opacity = "0"; 
+        menu_container3.style.transform = "translateY(20px)"; 
+        menu_container3.style.opacity = "0"; 
+        menu_container4.style.transform = "translateY(20px)"; 
+        menu_container4.style.opacity = "0"; 
+        menu_container5.style.transform = "translateY(20px)"; 
+        menu_container5.style.opacity = "0"; 
+        menu_container.style.cursor ="default";
+        menu_container.style.pointerEvents ="none";
+        menu_container2.style.cursor ="default";
+        menu_container2.style.pointerEvents ="none";
+        menu_container3.style.cursor ="default";
+        menu_container3.style.pointerEvents ="none";
+        menu_container4.style.cursor ="default";
+        menu_container4.style.pointerEvents ="none";
+        menu_container5.style.cursor ="default";
+        menu_container5.style.pointerEvents ="none";
+        menu_display.style.zIndex = "0";
+});
+
+
+
 
 
 
