@@ -3,7 +3,7 @@
     $email = $_POST['email'];
     $message = $_POST['message'];
 
-    $email_from = 'mmbalbuena@up.edu.ph';
+    $email_from = 'manuelcbalbuena@yahoo.com';
 
     $email_subject = 'New Form Submission';
 
@@ -12,6 +12,14 @@
                         'User Message: $message.\n';
 
     $to = 'mmbalbuena@up.edu.ph';
+
+    $headers = 'From: $email_from \r\n';
+
+    $headers .= 'Reply-To: $visitor_email \r\n'; 
+
+    mail($to,$email_subject,$email_body,$headers);
+
+    header('Location: index.html?mailsend');
 
 
 
