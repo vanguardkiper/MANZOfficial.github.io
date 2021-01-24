@@ -1,5 +1,16 @@
 
 /*--------------------------------------------------------------------------------------*/
+/*--------------------------VARIABLES--------------------------*/
+/*--------------------------------------------------------------------------------------*/
+:root{
+    --primary-color:#f05454;
+    --secondary-color:#222831;
+    --primary-font:'Mansalva', cursive;
+    --secondary-font:'Open Sans', sans-serif;
+    --tertiary-font:'Roboto', sans-serif;
+}
+
+/*--------------------------------------------------------------------------------------*/
 /*--------------------------BODY--------------------------*/
 /*--------------------------------------------------------------------------------------*/
 body,html{
@@ -11,7 +22,6 @@ body,html{
     line-height: 1.8em;
     color:#222831;
     scroll-behavior: smooth;
-
     align-items: center;
     background-color:#222831;
     font-family: 'Open Sans', sans-serif;
@@ -237,7 +247,6 @@ body,html{
 .pimg1{
     background-image:url(images/other-images/white_coffee.png);
     height:100%;  
-    color:#321313;
     display:flex;
     align-items: center;
     justify-content: space-around;
@@ -311,6 +320,9 @@ body,html{
     margin-left:40px;
 }
 
+
+
+
 /*intro-button*/
 .recreate-button{
     background-color:#f05454;
@@ -326,8 +338,11 @@ body,html{
     transition: 0.5s ease-in-out;
     font-size:20px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-    cursor: pointer;
-    
+    cursor: pointer;   
+}
+.recreate-button a{
+    color:white;
+    text-decoration: none;
 }
 
 .recreate-button:hover{
@@ -397,6 +412,14 @@ body,html{
  
 }
 
+.intro-header{
+    color:white;
+    margin-bottom:30px;
+    font-family: 'Mansalva', cursive;
+    z-index:100;align-content: center;
+    align-items: center;
+    text-align: center;
+}
 
 #intro-name{
     color:#f05454;
@@ -960,3 +983,11 @@ body,html{
     }
 }
 
+
+.cursive{
+    font-family: 'Mansalva', cursive;font-weight: bolder;
+}
+
+#section-3rd{
+    margin-top:5vh;
+}

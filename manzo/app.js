@@ -1,5 +1,5 @@
 
-
+//modal
 const modal = document.querySelector(".modal");
 const previews = document.querySelectorAll(".itemBox");
 const original = document.querySelector(".full-img");
@@ -20,27 +20,7 @@ modal.addEventListener('click',(e) =>{
     }
 });  
 
-
-
-
-
-
-
-
-
-
-
-const menu = document.querySelector('.logo-container');
-const menu_bar = document.querySelector('#menu-container');
-const logo_container = document.querySelector('.logo-container');
-const menu_content = document.querySelector('.menu-list');
-const menu_container = document.querySelector('.list-container');
-const menu_container2 = document.querySelector('.list-container2');
-const menu_container3 = document.querySelector('.list-container3');
-const menu_container4 = document.querySelector('.list-container4');
-const menu_container5 = document.querySelector('.list-container5');
-
-
+//skill-section
 const skill1 = document.querySelector('.skill:nth-child(1)');
 const skill2 = document.querySelector('.skill:nth-child(2)');
 const skill3 = document.querySelector('.skill:nth-child(3)');
@@ -49,7 +29,6 @@ const skill5 = document.querySelector('.skill:nth-child(5)');
 const skill6 = document.querySelector('.skill:nth-child(6)');
 const h_skill = document.querySelector('.skill-type');
 const p_skill = document.querySelector('.skill-text');
-
 
 skill1.addEventListener('click',function(){
 
@@ -82,7 +61,16 @@ skill6.addEventListener('click',function(){
     p_skill.innerHTML = "Able to use WordPress to develop a beautiful website. WordPress is a simple platform that provides easy website management and development.";
 });
 
-
+//menu-bar
+const menu = document.querySelector('.logo-container');
+const menu_bar = document.querySelector('#menu-container');
+const logo_container = document.querySelector('.logo-container');
+const menu_content = document.querySelector('.menu-list');
+const menu_container = document.querySelector('.list-container');
+const menu_container2 = document.querySelector('.list-container2');
+const menu_container3 = document.querySelector('.list-container3');
+const menu_container4 = document.querySelector('.list-container4');
+const menu_container5 = document.querySelector('.list-container5');
 
 var checker = 0;
 const menu_display = document.querySelector('#menu-content');
@@ -147,9 +135,149 @@ menu.addEventListener('click',function(){
    
 })
 
+menu_container.addEventListener('click',function(){
+  menu_bar.style.width="0vw";
+        menu_bar.style.height="0vh";
+        checker -=1;
+        logo_container.style.background="#f05454";  
+        menu_container.style.transform = "translateY(20px)"; 
+        menu_container.style.opacity = "0"; 
+        menu_container2.style.transform = "translateY(20px)"; 
+        menu_container2.style.opacity = "0"; 
+        menu_container3.style.transform = "translateY(20px)"; 
+        menu_container3.style.opacity = "0"; 
+        menu_container4.style.transform = "translateY(20px)"; 
+        menu_container4.style.opacity = "0"; 
+        menu_container5.style.transform = "translateY(20px)"; 
+        menu_container5.style.opacity = "0"; 
+        menu_container.style.cursor ="default";
+        menu_container.style.pointerEvents ="none";
+        menu_container2.style.cursor ="default";
+        menu_container2.style.pointerEvents ="none";
+        menu_container3.style.cursor ="default";
+        menu_container3.style.pointerEvents ="none";
+        menu_container4.style.cursor ="default";
+        menu_container4.style.pointerEvents ="none";
+        menu_container5.style.cursor ="default";
+        menu_container5.style.pointerEvents ="none";
+        menu_display.style.zIndex = "0";
+});
+
+menu_container2.addEventListener('click',function(){
+  menu_bar.style.width="0vw";
+        menu_bar.style.height="0vh";
+        checker -=1;
+        logo_container.style.background="#f05454";  
+        menu_container.style.transform = "translateY(20px)"; 
+        menu_container.style.opacity = "0"; 
+        menu_container2.style.transform = "translateY(20px)"; 
+        menu_container2.style.opacity = "0"; 
+        menu_container3.style.transform = "translateY(20px)"; 
+        menu_container3.style.opacity = "0"; 
+        menu_container4.style.transform = "translateY(20px)"; 
+        menu_container4.style.opacity = "0"; 
+        menu_container5.style.transform = "translateY(20px)"; 
+        menu_container5.style.opacity = "0"; 
+        menu_container.style.cursor ="default";
+        menu_container.style.pointerEvents ="none";
+        menu_container2.style.cursor ="default";
+        menu_container2.style.pointerEvents ="none";
+        menu_container3.style.cursor ="default";
+        menu_container3.style.pointerEvents ="none";
+        menu_container4.style.cursor ="default";
+        menu_container4.style.pointerEvents ="none";
+        menu_container5.style.cursor ="default";
+        menu_container5.style.pointerEvents ="none";
+        menu_display.style.zIndex = "0";
+});
+
+menu_container3.addEventListener('click',function(){
+  menu_bar.style.width="0vw";
+        menu_bar.style.height="0vh";
+        checker -=1;
+        logo_container.style.background="#f05454";  
+        menu_container.style.transform = "translateY(20px)"; 
+        menu_container.style.opacity = "0"; 
+        menu_container2.style.transform = "translateY(20px)"; 
+        menu_container2.style.opacity = "0"; 
+        menu_container3.style.transform = "translateY(20px)"; 
+        menu_container3.style.opacity = "0"; 
+        menu_container4.style.transform = "translateY(20px)"; 
+        menu_container4.style.opacity = "0"; 
+        menu_container5.style.transform = "translateY(20px)"; 
+        menu_container5.style.opacity = "0"; 
+        menu_container.style.cursor ="default";
+        menu_container.style.pointerEvents ="none";
+        menu_container2.style.cursor ="default";
+        menu_container2.style.pointerEvents ="none";
+        menu_container3.style.cursor ="default";
+        menu_container3.style.pointerEvents ="none";
+        menu_container4.style.cursor ="default";
+        menu_container4.style.pointerEvents ="none";
+        menu_container5.style.cursor ="default";
+        menu_container5.style.pointerEvents ="none";
+        menu_display.style.zIndex = "0";
+});
 
 
+menu_container4.addEventListener('click',function(){
+  menu_bar.style.width="0vw";
+        menu_bar.style.height="0vh";
+        checker -=1;
+        logo_container.style.background="#f05454";  
+        menu_container.style.transform = "translateY(20px)"; 
+        menu_container.style.opacity = "0"; 
+        menu_container2.style.transform = "translateY(20px)"; 
+        menu_container2.style.opacity = "0"; 
+        menu_container3.style.transform = "translateY(20px)"; 
+        menu_container3.style.opacity = "0"; 
+        menu_container4.style.transform = "translateY(20px)"; 
+        menu_container4.style.opacity = "0"; 
+        menu_container5.style.transform = "translateY(20px)"; 
+        menu_container5.style.opacity = "0"; 
+        menu_container.style.cursor ="default";
+        menu_container.style.pointerEvents ="none";
+        menu_container2.style.cursor ="default";
+        menu_container2.style.pointerEvents ="none";
+        menu_container3.style.cursor ="default";
+        menu_container3.style.pointerEvents ="none";
+        menu_container4.style.cursor ="default";
+        menu_container4.style.pointerEvents ="none";
+        menu_container5.style.cursor ="default";
+        menu_container5.style.pointerEvents ="none";
+        menu_display.style.zIndex = "0";
+});
 
+
+menu_container5.addEventListener('click',function(){
+  menu_bar.style.width="0vw";
+        menu_bar.style.height="0vh";
+        checker -=1;
+        logo_container.style.background="#f05454";  
+        menu_container.style.transform = "translateY(20px)"; 
+        menu_container.style.opacity = "0"; 
+        menu_container2.style.transform = "translateY(20px)"; 
+        menu_container2.style.opacity = "0"; 
+        menu_container3.style.transform = "translateY(20px)"; 
+        menu_container3.style.opacity = "0"; 
+        menu_container4.style.transform = "translateY(20px)"; 
+        menu_container4.style.opacity = "0"; 
+        menu_container5.style.transform = "translateY(20px)"; 
+        menu_container5.style.opacity = "0"; 
+        menu_container.style.cursor ="default";
+        menu_container.style.pointerEvents ="none";
+        menu_container2.style.cursor ="default";
+        menu_container2.style.pointerEvents ="none";
+        menu_container3.style.cursor ="default";
+        menu_container3.style.pointerEvents ="none";
+        menu_container4.style.cursor ="default";
+        menu_container4.style.pointerEvents ="none";
+        menu_container5.style.cursor ="default";
+        menu_container5.style.pointerEvents ="none";
+        menu_display.style.zIndex = "0";
+});
+
+//smooth scrolling
 // Select all links with hashes
 $('a[href*="#"]')
   // Remove links that don't actually link to anything
@@ -187,5 +315,19 @@ $('a[href*="#"]')
     }
   });
 
+  $(document).ready(function(){
+    $('.list').click(function(){
+        const value = $(this).attr('data-filter');
+        if(value == 'all'){
+            $('.itemBox').show('1000'); 
+        }
+        else{
+            $('.itemBox').not('.'+value).hide('1000');
+            $('.itemBox').filter('.'+value).show('1000');
+        }
+    })
 
-
+    $('.list').click(function(){
+        $(this).addClass('active').siblings().removeClass('active');
+    })
+})
