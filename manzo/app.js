@@ -20,7 +20,6 @@ modal.addEventListener('click',(e) =>{
     }
 });  
 
-//skill-section
 const skill1 = document.querySelector('.skill:nth-child(1)');
 const skill2 = document.querySelector('.skill:nth-child(2)');
 const skill3 = document.querySelector('.skill:nth-child(3)');
@@ -61,7 +60,8 @@ skill6.addEventListener('click',function(){
     p_skill.innerHTML = "Able to use WordPress to develop a beautiful website. WordPress is a simple platform that provides easy website management and development.";
 });
 
-//menu-bar
+
+
 const menu = document.querySelector('.logo-container');
 const menu_bar = document.querySelector('#menu-container');
 const logo_container = document.querySelector('.logo-container');
@@ -134,6 +134,7 @@ menu.addEventListener('click',function(){
     }
    
 })
+
 
 menu_container.addEventListener('click',function(){
   menu_bar.style.width="0vw";
@@ -277,7 +278,12 @@ menu_container5.addEventListener('click',function(){
         menu_display.style.zIndex = "0";
 });
 
-//smooth scrolling
+
+
+
+
+
+
 // Select all links with hashes
 $('a[href*="#"]')
   // Remove links that don't actually link to anything
@@ -314,6 +320,9 @@ $('a[href*="#"]')
       }
     }
   });
+
+
+
 
   $(document).ready(function(){
     $('.list').click(function(){
