@@ -239,16 +239,16 @@
     <!--4th-section-contactme-->
     <div class="pimg3" id='section-5th'>               
         <div class="container-form" id="contact">
-            <form id="form">  
+            <form id="form" method="post" action="contact-handler.php">  
                 <h1>CONTACT US</h1>
                     <label for="email">Email</label>
-                    <input type="text" placeholder="Email" id="email">
+                    <input name = "email" type="text" placeholder="Email" id="email">
                     <label for ="fname">First Name</label>
-                    <input type="text" placeholder="First Name" id="fname">
+                    <input name = "fname" type="text" placeholder="First Name" id="fname">
                     <label for="lname">Last Name</label>
-                    <input type="text" placeholder="Last Name" id="lname">
+                    <input name = "lname" type="text" placeholder="Last Name" id="lname">
                     <label for="message">Message</label>
-                    <textarea id="message" placeholder="Your Message"></textarea>
+                    <textarea name = "message" id="message" placeholder="Your Message"></textarea>
                     <button class="submit">Send Message</button>
             </form>
         </div>
